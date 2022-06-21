@@ -1,0 +1,23 @@
+{
+  "name": "@mrgb/root",
+  "version": "1.0.0",
+  "description": "Lerna Monorepo for Remix applications",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "lerna": "5.1.0-alpha.0",
+    "nx": "^14.1.9",
+    "typescript": "^4.7.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  }
+}
