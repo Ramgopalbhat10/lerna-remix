@@ -1,6 +1,8 @@
 name: 🚀 Deploy
 on:
   push:
+    paths:
+      - "packages/bog/**"
     branches:
       - main
       - dev
