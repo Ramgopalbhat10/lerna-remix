@@ -1,8 +1,6 @@
 name: 🚀 Deploy
 on:
   push:
-    paths:
-      - "packages/blog/**"
     branches:
       - main
       - dev
